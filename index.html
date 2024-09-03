@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="search">
+            <div class="icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="search_box">
+                <input type="text" name="" id="search" placeholder="Enter Notes">
+            </div>
+        </div>
+        <div class="add">
+            <a href="./form.html">+ Add</a>
+        </div>
+    </nav>
+    <section class="container">
+        <h3>Your Notes</h3>
+        <div class="category">
+            <div class="types">
+                <ul>
+                    <li> ALL</li>
+                    <li>PERSONAL</li>
+                    <li>HOME</li>
+                    <li>BUSINESS</li>
+                </ul>
+            </div>
+            <div class="check_box">
+                <input type="checkbox" name="" id="">
+                <label for="">Show only completed notes</label>
+            </div>
+        </div>
+        <div class="notes_wrapper" id="notes">
+        </div>
+    </section>
+</body>
+
+
+
+<script src="./index.js"></script>
+</html>
