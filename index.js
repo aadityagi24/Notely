@@ -85,9 +85,9 @@ input.forEach((item) => {
 if (form) {
     form.addEventListener("submit", (e) => {
         e.preventDefault();
-        const savedNotes = localStorage.getItem("notesData");
-        const arr = JSON.parse(savedNotes);
-        obj.id = arr.length;
+        // const savedNotes = localStorage.getItem("notesData");
+        // const arr = JSON.parse(savedNotes);
+        obj.id = notesData.length;
         notesData.push(obj);
         saveNotes(); // Save notesData to localStorage
         handleNotes();
